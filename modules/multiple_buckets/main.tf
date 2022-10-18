@@ -23,7 +23,7 @@ resource "random_string" "prefix" {
 }
 
 module "cloud_storage" {
-  source     = "../bucket"
+  source     = "../../bucket"
   project_id = var.project_id
   prefix     = "multiple-buckets-${random_string.prefix.result}"
 
