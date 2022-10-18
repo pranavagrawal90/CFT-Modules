@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+# source - https://github.com/terraform-google-modules/terraform-google-cloud-storage/blob/master/main.tf
+
 /******************************************
   Bucket random id suffix configuration
  *****************************************/

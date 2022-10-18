@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+# source - https://github.com/terraform-google-modules/terraform-google-cloud-storage/blob/master/examples/multiple_buckets/main.tf
+
 resource "random_string" "prefix" {
   length  = 4
   upper   = false
